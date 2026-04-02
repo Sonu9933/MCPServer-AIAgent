@@ -32,12 +32,12 @@
         {
             if (!docs.TryGetValue(docId, out _))
             {
-                return string.Empty;
+                return "Not(Failure)";
             }
 
             docs[docId] = newDocData;
 
-            return "Success";
+            return "Successfully";
         }
 
         public async Task<List<string>> FetchDocs()

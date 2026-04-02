@@ -17,6 +17,7 @@ MCPServer is a .NET 10 application designed to provide a server implementation u
 ## Project Structure
 - **MCPServer.csproj**: Project file defining dependencies and target framework.
 - **Program.cs**: Entry point of the application. Configures the host and services.
+- **MCP\Resource\DocumentMCPPrompt.cs**: Contains prompt related for document handling.
 - **MCP\Resource\DocumentMCPResource.cs**: Contains resource-related logic for document handling.
 - **MCP\Tool\DocumentMCPTool.cs**: Implements tools for document processing.
 - **InMemoryData\DocsInMemory.cs**: Manages in-memory data storage for documents.

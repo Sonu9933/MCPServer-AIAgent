@@ -19,7 +19,12 @@ namespace MCPServer
             builder.Services
                 .AddMcpServer()
                 .WithStdioServerTransport()
-                .WithToolsFromAssembly();
+                // Scans for MCP Tools
+                .WithToolsFromAssembly()
+                // Scans for MCP Resources
+                .WithResourcesFromAssembly()
+                // Scans for MCP Prompts
+                .WithPromptsFromAssembly();
 
             builder
                 .Build()
