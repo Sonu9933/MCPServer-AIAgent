@@ -2,5 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="ReadMe.md" />
   </Folder>
+  <Project Path="AIAgent/AIAgent.csproj" />
   <Project Path="MCPServer/MCPServer.csproj" />
 </Solution>
